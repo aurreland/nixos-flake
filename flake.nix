@@ -46,7 +46,7 @@
     ez-configs.url = "github:ehllie/ez-configs";
 
     home-manager = {
-      url = "github:nix-community/home-manager";
+      url = "github:nix-community/home-manager/release-24.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
