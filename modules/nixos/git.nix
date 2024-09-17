@@ -7,7 +7,4 @@
         }/bin/git-credential-libsecret";
     };
   };
-  environment.systemPackages = with pkgs; [
-    github-desktop
-  ];
 }
